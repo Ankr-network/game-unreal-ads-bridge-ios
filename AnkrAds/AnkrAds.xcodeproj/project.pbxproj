@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2391CDD92856829000FCA921 /* AnkrAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391CDD82856829000FCA921 /* AnkrAds.swift */; };
-		2391CDE32856837B00FCA921 /* ANKR_adlibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 2391CDE22856837B00FCA921 /* ANKR_adlibrary */; };
+		23FE48532858972E00954190 /* ANKR_adlibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 23FE48522858972E00954190 /* ANKR_adlibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,6 @@
 /* Begin PBXFileReference section */
 		2391CDD52856829000FCA921 /* libAnkrAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnkrAds.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2391CDD82856829000FCA921 /* AnkrAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkrAds.swift; sourceTree = "<group>"; };
-		2391CE132856A70C00FCA921 /* game-advertisements-native-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "game-advertisements-native-ios"; path = "../../game-advertisements-native-ios"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2391CDE32856837B00FCA921 /* ANKR_adlibrary in Frameworks */,
+				23FE48532858972E00954190 /* ANKR_adlibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +69,6 @@
 		2391CDDF285682A400FCA921 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				2391CE132856A70C00FCA921 /* game-advertisements-native-ios */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -99,7 +97,7 @@
 			);
 			name = AnkrAds;
 			packageProductDependencies = (
-				2391CDE22856837B00FCA921 /* ANKR_adlibrary */,
+				23FE48522858972E00954190 /* ANKR_adlibrary */,
 			);
 			productName = AnkrAds;
 			productReference = 2391CDD52856829000FCA921 /* libAnkrAds.a */;
@@ -129,6 +127,9 @@
 				Base,
 			);
 			mainGroup = 2391CDCC2856829000FCA921;
+			packageReferences = (
+				23FE48512858972E00954190 /* XCRemoteSwiftPackageReference "game-ads-native-ios" */,
+			);
 			productRefGroup = 2391CDD62856829000FCA921 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -311,9 +312,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		23FE48512858972E00954190 /* XCRemoteSwiftPackageReference "game-ads-native-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ankr-network/game-ads-native-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		2391CDE22856837B00FCA921 /* ANKR_adlibrary */ = {
+		23FE48522858972E00954190 /* ANKR_adlibrary */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 23FE48512858972E00954190 /* XCRemoteSwiftPackageReference "game-ads-native-ios" */;
 			productName = ANKR_adlibrary;
 		};
 /* End XCSwiftPackageProductDependency section */

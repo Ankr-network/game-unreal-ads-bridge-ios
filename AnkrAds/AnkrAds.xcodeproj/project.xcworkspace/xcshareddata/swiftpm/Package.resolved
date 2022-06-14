@@ -1,21 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "kingfisher",
+      "identity" : "game-ads-native-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "location" : "https://github.com/Ankr-network/game-ads-native-ios",
       "state" : {
-        "revision" : "2de32a15bdd640a30ee9972a40b031fc604fc880",
-        "version" : "7.2.3"
-      }
-    },
-    {
-      "identity" : "swift-docc-plugin",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-docc-plugin",
-      "state" : {
-        "revision" : "3303b164430d9a7055ba484c8ead67a52f7b74f6",
-        "version" : "1.0.0"
+        "branch" : "main",
+        "revision" : "a3a8ccfeb9abc02c5f9b556da5285d950b1c6ee5"
       }
     }
   ],
