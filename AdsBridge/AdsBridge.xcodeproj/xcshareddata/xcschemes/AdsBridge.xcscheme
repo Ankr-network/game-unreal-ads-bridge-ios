@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1340"
+   LastUpgradeVersion = "1330"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2391CDD42856829000FCA921"
-               BuildableName = "libAnkrAds.a"
-               BlueprintName = "AnkrAds"
-               ReferencedContainer = "container:AnkrAds.xcodeproj">
+               BlueprintIdentifier = "44D512D02858C77D00D69AD0"
+               BuildableName = "AdsBridge.framework"
+               BlueprintName = "AdsBridge"
+               ReferencedContainer = "container:AdsBridge.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2391CDD42856829000FCA921"
-            BuildableName = "libAnkrAds.a"
-            BlueprintName = "AnkrAds"
-            ReferencedContainer = "container:AnkrAds.xcodeproj">
+            BlueprintIdentifier = "44D512D02858C77D00D69AD0"
+            BuildableName = "AdsBridge.framework"
+            BlueprintName = "AdsBridge"
+            ReferencedContainer = "container:AdsBridge.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
